@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #e2e2e2;
+	width: 1270px;
+	height: 875px;
+}
+#poort{
+	display: block;
+	position: relative;
+	top:-2px;
+}
+#mainblockk{
+    width: 897px;
+	height:570px;
+    border: 2px solid #a7a0a0;
+    margin: 7px 0px 0px 19px;
+	padding: 0;
+}
+
+#poort::after{
+	background-image: url("../img/poort.jpg");
+	content: "";
+	height:630px;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	background-size: 939px 630px;
+}
+header{
+	width:1260px;
+	height:197px;
+	padding:0;
+	margin:0;
+}
+
+#logo{
+	margin:-210px 0 30px 550px;
+}
+
+.navbar {
+	margin-top: 0px;
+	margin-right: 0;
+	margin-left: -40px;
+	margin-bottom: 0;
+	position: absolute;
+	width: 1270px;
+	height: 44px;
+	display: inline-block;
+	list-style: none;
+}
+
+#navbar{
+	float:left;
+}
+	
+.home a, .tijden a, .kaart a, .dieren a, .info a{
+	width: 252px;
+	height: 44px;
+	float: left;
+	position: relative;
+	margin:0;
+}
+
+.home a:link{
+	background-position: 0px 0px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.tijden a:link{
+	background-position: -252px 0px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.kaart a:link{
+	background-position: -504px 0px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.dieren a:link{
+	background-position: -756px 0px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.info a:link{
+	background-position: -1008px 0px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.home a:hover{
+	background-position: 0px -44px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.tijden a:hover{
+	background-position: -252px -44px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.kaart a:hover{
+	background-position: -504px -44px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.dieren a:hover{
+	background-position: -756px -44px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.info a:hover{
+	background-position: -1008px -44px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.home a:active{
+	background-position: 0px -88px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.tijden a:active{
+	background-position: -252px -88px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.kaart a:active{
+	background-position: -504px -88px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.dieren a:active{
+	background-position: -756px -88px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+.info a:active{
+	background-position: -1008px -88px;
+	background-image: url("../img/buttons.png");
+	background-repeat: no-repeat;
+}
+
+h1{
+	margin:2px 0 0 20px;
+	font-family:Arial;
+	color:#01a4b9;
+}
+	
+h2, h3{
+	color:#01a4b9;
+	font-family: Arial, Verdana, sans-serif;
+	margin-left:2px;
+	margin-top:0;
+	margin-bottom:0;
+}
+.color {
+		color:#007180;
+	font-family: Arial, Verdana, sans-serif;
+	margin-left:2px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+h5{
+	font-size: 40px;
+	font-family: Arial;
+	color: #01a4b9;
+	margin: 0;
+	text-align: center;
+}
+
+p{
+	color: #01a4b9;
+	font-family: Arial, Verdana, sans-serif;
+	margin-left: 2px;
+	margin-top: 0;
+	margin-bottom:0;	
+}
+
+h4{
+	color: #01a4b9;
+	font-family: Arial, Verdana, sans-serif;
+	margin-left: 2px;
+	margin-top: 0;
+	margin-bottom:0;	
+}
+
+form{font-family:Arial, Verdana, sans-serif;}
+
+#zoo{
+	margin-left:20px;
+}
+
+#klok{
+	width: 250px;
+	position: absolute;
+	left: 620px;
+	top: 187px;
+}
+	
+
+	
+
+fieldset{
+	display:block;
+	opacity:1.00;
+	border:0;
+	margin-top:-10px;
+	margin-left:-11px;
+	width:897px;
+	height:567px;
+	}
+
+#bank{width:auto;
+height:auto;
+margin-left:2px;
+}
+table, th, td {
+    border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+th, td {
+    padding: 0 0 0 2px;
+}
+
+#dieren{
+	margin-left:15px;
+}
+#owl{
+	width: 301px;
+	position: absolute;
+	left: 436px;
+	top: 173px;
+}
+
+#wereld{
+	position:absolute;
+	left:553px;
+	top:90px;}
+
+#main{
+	background-color: #d1d1d1;
+	width: 939px;
+	height: 630px;
+	border: 2px solid #a7a0a0;
+	padding: 0;
+	left: 50px;
+	position: absolute;
+	top: 250px;
+	margin:0;
+}
+
+#main2{
+	width: 939px;
+	height: 630px;
+	border: 2px solid #a7a0a0;
+	padding: 0;
+	left: 50px;
+	position: absolute;
+	top: 250px;
+	margin:0;
+}
+#mainblock{
+	background-color: #ffffff;
+    width: 897px;
+	height:570px;
+    border: 2px solid #a7a0a0;
+    margin: 7px 0px 0px 19px;
+	padding: 0;
+}
+
+#side{
+	background-color: #d1d1d1;
+	width: 215px;
+	height: 630px;
+	border: 2px solid #a7a0a0;g
+	float: left;
+	position: absolute;
+	left: 1012px;
+	top: 250px;
+	padding:0;
+}
+
+#sideblock{
+	background-color: #ffffff;
+    width: 193px;
+	height:569px;
+    border: 2px solid #a7a0a0;
+    margin: 7px 0px 0px 9px ;
+	padding:0;
+}
+
+#label1{
+    width: 25px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#label2{
+    width: 25px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#label3{
+    width: 25px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#label4{
+    width: 25px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#label5{
+    width: 25px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+footer{
+	background-color: #01a4b9;
+	width: 1259px;
+	height: 36px;
+	border: 2px solid #a7a0a0;
+	position: absolute;
+	top:896px;
+	margin:0;
+}
+#volg{
+	margin-top:2px;
+	margin-left:940px;
+	margin-bottom:0px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#c9bfbf}
+
+#social{
+	margin-top:-29.6px;
+	position: absolute;
+	height: 36px;
+	width:140px;
+	display: inline-block;
+	left:1119px;
+	list-style: none;
+}
+
+.social{
+	height:36px;
+	width:35px;
+	float:left;
+	margin:0px;
+	}
+	

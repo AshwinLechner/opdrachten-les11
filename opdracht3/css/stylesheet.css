@@ -1,0 +1,40 @@
+@font-face {
+	src: url("../fonts/STONIN__.TTF");
+	font-family: "Stony Island";
+}		
+@font-face {
+	src: url("../fonts/TREAI___.TTF");
+	font-family: "Treasure Island";
+}
+html, body {
+	font-size: 19px;
+	font-family: "Stony Island", "Arial Black", Arial, sans-serif;
+}
+h1, h2 {
+	font-family: "Treasure Island", "Arial Black", Arial, sans-serif;
+}
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, yellow 40%, dodgerblue, red);
+	z-index: -1;
+}
+#container {
+	max-width: 100%;
+	padding: 40px;
+}
+p::first-line, blockquote::first-line {
+	text-shadow: 2px 2px 4px white;
+}
+blockquote::selection {
+	background-color: mediumseagreen;
+}
+:not(blockquote)::first-letter {
+	color: orange;
+}
+p:first-of-type {
+	font-style: italic;
+}
